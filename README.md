@@ -44,7 +44,7 @@ rm -rf temp_db
 ```
 
 ### BYO-Datasets!
-You can also use your own datasets. To do this, pass in a dataset metadata JSON file containing descriptions of the paths of datasets (relative to the metadata file) and their column descriptions in natural language. You can have a look at the metadata files in the `DiscoveryBench` directory from above as examples.
+You can also use your own datasets. To do this, pass in a dataset metadata JSON file containing descriptions of the paths of datasets (relative to the metadata file) and their column descriptions in natural language. You can have a look at the metadata files in the `DiscoveryBench` directory from above as examples, or see a description of the metadata format from the DiscoveryBench repository [here](https://github.com/allenai/discoverybench/blob/main/discoverybench/README.md).
 
 ## Run AutoDiscovery (MCTS-based hypothesis search and verification)
 
